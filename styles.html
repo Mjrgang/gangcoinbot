@@ -26,10 +26,10 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80') 
+            background: url('https://www.google.com/imgres?q=beaches&imgurl=https%3A%2F%2Fwww.travelandleisure.com%2Fthmb%2F_MOvipJqicq_18h1sAOvUHo_tP8%3D%2F1500x0%2Ffilters%3Ano_upscale()%3Amax_bytes(150000)%3Astrip_icc()%2Fplaya-paraiso-quintana-roo-MXBEACHES1021-9e3ae6596d70498499e7b9338304cbbb.jpg&imgrefurl=https%3A%2F%2Fwww.travelandleisure.com%2Ftrip-ideas%2Fbeach-vacations%2Fbest-beaches-in-mexico&docid=LMLaU9NFJFIAhM&tbnid=zupldnKfu-xj7M&vet=12ahUKEwjXjt7GwqaJAxWPEVkFHVbRCtsQM3oECF8QAA..i&w=1500&h=1000&hcb=2&ved=2ahUKEwjXjt7GwqaJAxWPEVkFHVbRCtsQM3oECF8QAA') 
                 no-repeat center center;
             background-size: cover;
-            opacity: 0.1;
+            opacity: 0.2;
             z-index: -1;
         }
 
@@ -98,7 +98,7 @@
 
         .bottom-nav {
             position: fixed;
-            bottom: 0;
+            bottom: 1;
             width: 100%;
             display: flex;
             justify-content: space-around;
@@ -128,7 +128,7 @@
             const username = tg.initDataUnsafe?.user?.username || "Anonymous";
             const params = new URLSearchParams(window.location.search);
             const referrer = params.get('ref');
-            const referralLink = `https://your-site.com?ref=${username}`;
+            const referralLink = `https://t.me/M_GangBot?=${username}`;
             const balanceKey = `${username}-balance`;
             const referralsKey = `${username}-referrals`;
             const tasksCompletedKey = `${username}-tasks-completed`;
