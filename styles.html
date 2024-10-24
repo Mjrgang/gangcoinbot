@@ -128,7 +128,7 @@
             const username = tg.initDataUnsafe?.user?.username || "Anonymous";
             const params = new URLSearchParams(window.location.search);
             const referrer = params.get('ref');
-            const referralLink = `https://t.me/M_GangBot?=${username}`;
+            const referralLink = `https://t.me/M_GangBot?ref=${username}`;
             const balanceKey = `${username}-balance`;
             const referralsKey = `${username}-referrals`;
             const tasksCompletedKey = `${username}-tasks-completed`;
